@@ -63,6 +63,11 @@ img {
     gap: 1rem;
 }
 
+.weatherApp__header--img {
+    background-color: #142b2c7e;
+    border-radius: 50%;
+}
+
 .weatherApp__header--data {
     display: flex;
     gap: 0.5rem;
@@ -129,7 +134,8 @@ img {
 .weatherApp__footer--btn {
     border: none;
     border-radius: 0.5rem;
-    background-color: #6cbac07e;
+    background-color: #142b2c7e;
+    color: white;
     padding: 0.6rem 1rem;
     cursor: pointer;
 }
